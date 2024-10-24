@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Glamify Queen</string>
+    <string name="sign_in">Sign In</string>
+    <string name="welcome_back">Welcome back, you\'ve been missed!</string>
+    <string name="localhost_domain_com">localhost@domain.com</string>
+    <string name="anyone_21">anyone#21</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="just_a_few">Just a few quick steps to get started</string>
+    <string name="name_hint">Natasha N. Doe</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="or_with">or with</string>
+    <string name="by_hanu">by hanu</string>
+    <string name="my_profile">My Profile</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="notifications">Notifications</string>
+    <string name="display">Display</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">Logout</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="order_settings">Order Settings</string>
+    <string name="account">Account &amp; More</string>
+    <string name="track_order">Track Order</string>
+    <string name="project_repository">Project Repository</string>
+    <string name="todo">TODO</string>
+    <string name="search_here">Search anything…</string>
+    <string name="carousel1"><![CDATA[https://firebasestorage.googleapis.com/v0/b/glamify-queen.appspot.com/o/carousel%2Fcarousel%201.png?alt=media&token=9c5f7429-57ac-4796-afe5-dfa3ad0f351d]]></string>
+    <string name="carousel2"><![CDATA[https://firebasestorage.googleapis.com/v0/b/glamify-queen.appspot.com/o/carousel%2Fcarousel%202.png?alt=media&token=74dc509b-3f18-49f5-a0c3-209cd0e8a0f5]]></string>
+    <string name="carousel3"><![CDATA[https://firebasestorage.googleapis.com/v0/b/glamify-queen.appspot.com/o/carousel%2Fcarousel%203.png?alt=media&token=d734cc81-bad0-412e-951a-879c5d7e80aa]]></string>
+    <string name="search_products">Search Products</string>
+    <string name="view_all">view all</string>
+    <string name="good_day">Good day,</string>
+    <string name="beauty_offers">Beauty Offers</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="product_description">Product Description</string>
+    <string name="product_details">Product Details</string>
+    <string name="discount">(22.2% off)</string>
+    <string name="usd">USD</string>
+    <string name="let_s_start_by_updating_your_profile_details">Let’s start by updating your profile details.</string>
+    <string name="step_2_of_4">STEP 2 OF 4</string>
+    <string name="edit_profile">Edit profile</string>
+</resources>

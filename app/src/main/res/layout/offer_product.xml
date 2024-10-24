@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_230sdp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_6sdp"
+    android:clickable="true"
+    android:layout_marginEnd="@dimen/_10sdp"
+    android:background="@drawable/ripple_dark"
+    android:padding="@dimen/_6sdp">
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/product_image"
+        android:layout_width="@dimen/_75sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_alignParentTop="true"
+        android:padding="0dp"
+        android:src="@drawable/ic_launcher_background"
+        app:riv_corner_radius="@dimen/_6sdp" />
+
+    <LinearLayout
+        android:id="@+id/name_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_toEndOf="@+id/product_image"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product name"
+            android:maxLines="1"
+            android:fontFamily="@font/medium"
+            android:ellipsize="end"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintStart_toEndOf="@+id/roundedImageView2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:fontFamily="@font/regular"
+            android:text="@string/just_a_few"
+            android:textColor="@color/desc"
+            android:textSize="@dimen/_10ssp"
+            app:layout_constraintStart_toEndOf="@+id/roundedImageView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true">
+
+                <ImageView
+                    android:id="@+id/eye_icon"
+                    android:layout_width="@dimen/_12sdp"
+                    android:layout_height="@dimen/_12sdp"
+                    android:src="@drawable/ic_eye"
+                    app:tint="@color/desc"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:id="@+id/views"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:includeFontPadding="false"
+                    android:text="339k"
+                    android:textStyle="normal"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_toEndOf="@id/eye_icon"
+                    android:textColor="@color/desc"
+                    android:textSize="@dimen/_9ssp" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/timing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/medium"
+                android:textSize="@dimen/_9ssp"
+                android:includeFontPadding="false"
+                android:text="4 days left"
+                android:textColor="@color/text_hint" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

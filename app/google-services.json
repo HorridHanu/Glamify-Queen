@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "157966489395",
+    "project_id": "glamify-queen",
+    "storage_bucket": "glamify-queen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157966489395:android:836afa523e322195d5d046",
+        "android_client_info": {
+          "package_name": "com.hanuappmedia.glamifyqueen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1N_-eKOausdVlwS1-MKCuDN2bHxYb5Sc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingHorizontal="@dimen/_16sdp"
+    android:layout_marginTop="@dimen/_16sdp"
+    tools:context=".fragments.ProfileFragment">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/extra_bold"
+        android:includeFontPadding="false"
+        android:textColor="@color/black"
+        android:text="@string/my_profile"
+        android:textSize="@dimen/_22sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:orientation="vertical"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_60sdp">
+
+            <RelativeLayout
+                android:id="@+id/edit_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_background"
+                android:padding="@dimen/_8sdp">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/user_image"
+                    android:layout_width="@dimen/_55sdp"
+                    android:layout_height="@dimen/_55sdp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:background="#dddddd"
+                    android:src="@drawable/hanu"
+                    app:riv_mutate_background="true"
+                    app:riv_oval="true" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_7sdp"
+                    android:layout_toEndOf="@+id/user_image"
+                    android:orientation="vertical"
+                    tools:ignore="RelativeOverlap">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/bold"
+                        android:includeFontPadding="false"
+                        android:text="@string/name_hint"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/_16ssp" />
+
+                    <TextView
+                        style="@style/descText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:textSize="@dimen/_13ssp"
+                        android:layout_marginEnd="@dimen/_22sdp"
+                        android:text="@string/localhost_domain_com"
+                        android:textColor="@color/text_hint" />
+
+                </LinearLayout>
+
+<!--                <ImageView-->
+<!--                    android:layout_width="@dimen/_16sdp"-->
+<!--                    android:layout_height="@dimen/_16sdp"-->
+<!--                    android:layout_alignParentEnd="true"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:src="@drawable/ic_edit"-->
+<!--                    android:clickable="true"-->
+<!--                    android:background="@drawable/ripple_dark"-->
+<!--                    app:tint="@color/text_hint"-->
+<!--                    android:contentDescription="@string/app_name" />-->
+
+
+            </RelativeLayout>
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/display"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:fontFamily="@font/bold"-->
+<!--                android:includeFontPadding="false"-->
+<!--                android:textSize="@dimen/_16sdp"-->
+<!--                android:layout_marginTop="@dimen/_16sdp"/>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_9sdp"
+                android:orientation="vertical"
+                android:background="@drawable/input_background">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8sdp">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/night_icon"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:src="@drawable/ic_night"
+                        android:background="#7E57C2"
+                        app:riv_oval="true"
+                        android:padding="@dimen/_5sdp"
+                        app:riv_mutate_background="true"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/descText"
+                        android:text="@string/dark_theme"
+                        android:layout_marginStart="@dimen/_7sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/night_icon"
+                        tools:ignore="RelativeOverlap" />
+
+                    <Switch
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:thumbTint="@color/primary"
+                        android:trackTint="@color/text_hint"
+                        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8sdp">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/notification_icon"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:src="@drawable/ic_notification"
+                        android:background="#EF5350"
+                        app:riv_oval="true"
+                        android:padding="@dimen/_5sdp"
+                        app:riv_mutate_background="true"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/descText"
+                        android:text="@string/notifications"
+                        android:layout_marginStart="@dimen/_7sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/notification_icon"
+                        tools:ignore="RelativeOverlap" />
+
+                    <Switch
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:thumbTint="@color/primary"
+                        android:trackTint="@color/text_hint"
+                        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/order_settings"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:fontFamily="@font/bold"-->
+<!--                android:includeFontPadding="false"-->
+<!--                android:textSize="@dimen/_16sdp"-->
+<!--                android:layout_marginTop="@dimen/_16sdp"/>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_9sdp"
+                android:orientation="vertical"
+                android:background="@drawable/input_background">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8sdp"
+                    android:background="@drawable/ripple_dark"
+                    android:clickable="true">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/track_icon"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:src="@drawable/ic_track"
+                        android:background="#66BB6A"
+                        app:riv_oval="true"
+                        android:padding="@dimen/_5sdp"
+                        app:riv_mutate_background="true"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/descText"
+                        android:text="@string/track_order"
+                        android:layout_marginStart="@dimen/_7sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/track_icon"
+                        tools:ignore="RelativeOverlap" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8sdp"
+                    android:background="@drawable/ripple_dark"
+                    android:clickable="true">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/payment_icon"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:src="@drawable/ic_payment"
+                        android:background="#FF7043"
+                        app:riv_oval="true"
+                        android:padding="@dimen/_5sdp"
+                        app:riv_mutate_background="true"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/descText"
+                        android:text="@string/payment_method"
+                        android:layout_marginStart="@dimen/_7sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/payment_icon"
+                        tools:ignore="RelativeOverlap" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/account"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:includeFontPadding="false"-->
+<!--                android:fontFamily="@font/bold"-->
+<!--                android:textSize="@dimen/_16sdp"-->
+<!--                android:layout_marginTop="@dimen/_16sdp"/>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_9sdp"
+                android:orientation="vertical"
+                android:background="@drawable/input_background">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8sdp"
+                    android:background="@drawable/ripple_dark"
+                    android:clickable="true">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/project_icon"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:background="#29B6F6"
+                        android:padding="@dimen/_5sdp"
+                        android:src="@drawable/ic_project"
+                        app:riv_mutate_background="true"
+                        app:riv_oval="true" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/descText"
+                        android:text="@string/project_repository"
+                        android:layout_marginStart="@dimen/_7sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/project_icon"
+                        tools:ignore="RelativeOverlap" />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8sdp"
+                    android:background="@drawable/ripple_dark"
+                    android:clickable="true">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/pass_icon"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:src="@drawable/ic_pass"
+                        android:background="#26A69A"
+                        app:riv_oval="true"
+                        android:padding="@dimen/_5sdp"
+                        app:riv_mutate_background="true"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/descText"
+                        android:text="@string/change_password"
+                        android:layout_marginStart="@dimen/_7sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/pass_icon"
+                        tools:ignore="RelativeOverlap" />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8sdp"
+                    android:background="@drawable/ripple_dark"
+                    android:clickable="true">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/delete_icon"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:background="#FFA726"
+                        android:padding="@dimen/_5sdp"
+                        android:src="@drawable/ic_delete"
+                        app:riv_mutate_background="true"
+                        app:riv_oval="true" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/descText"
+                        android:text="@string/delete_account"
+                        android:layout_marginStart="@dimen/_7sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/delete_icon"
+                        tools:ignore="RelativeOverlap" />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/logout_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8sdp"
+                    android:background="@drawable/ripple_dark"
+                    android:clickable="true">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/logout_icon"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:background="#EC407A"
+                        android:padding="@dimen/_5sdp"
+                        android:src="@drawable/ic_logout"
+                        app:riv_mutate_background="true"
+                        app:riv_oval="true" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/descText"
+                        android:text="@string/logout"
+                        android:layout_marginStart="@dimen/_7sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/logout_icon"
+                        tools:ignore="RelativeOverlap" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
