@@ -41,4 +41,6 @@
     <string name="let_s_start_by_updating_your_profile_details">Let’s start by updating your profile details.</string>
     <string name="step_2_of_4">STEP 2 OF 4</string>
     <string name="edit_profile">Edit profile</string>
+    <string name="enter_your_name">Enter your name and add an optional profile picture</string>
+    <string name="email_address">Email Address</string>
 </resources>

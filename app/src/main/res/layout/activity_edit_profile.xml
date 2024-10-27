@@ -36,6 +36,19 @@
             android:text="@string/edit_profile"
             android:textSize="@dimen/_16ssp" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/bold"
+            android:layout_alignParentEnd="true"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/text_hint"
+            android:includeFontPadding="false"/>
+
+
+
     </RelativeLayout>
 
     <LinearLayout
@@ -66,12 +79,108 @@
             android:layout_gravity="center"
             android:fontFamily="@font/regular"
             android:text="@string/let_s_start_by_updating_your_profile_details"
-            android:textColor="@color/desc"
+            android:textColor="@color/text"
             android:textSize="@dimen/_12ssp" />
 
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/input_background"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/profile_image"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:src="@drawable/hanu"
+                app:riv_mutate_background="true"
+                app:riv_oval="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/_8sdp"
+                android:layout_toEndOf="@+id/profile_image"
+                android:fontFamily="@font/regular"
+                android:includeFontPadding="false"
+                android:text="@string/enter_your_name"
+                android:textColor="@color/text"
+                android:textSize="@dimen/_11ssp" />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height=".5dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/text_hint" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/_6sdp"
+            android:fontFamily="@font/medium"
+            android:includeFontPadding="false"
+            android:text="@string/name_hint"
+            android:textColor="@color/text"
+            android:textSize="@dimen/_11ssp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height=".5dp"
+            android:background="@color/text_hint" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/_16sdp"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email_address"
+            android:textColor="@color/text_hint"
+            android:fontFamily="@font/bold"
+            android:layout_marginStart="@dimen/_10sdp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_background"
+            android:text="@string/localhost_domain_com"
+            android:padding="@dimen/_10sdp"
+            android:includeFontPadding="false"
+            android:textSize="@dimen/_11ssp"
+            android:fontFamily="@font/medium"
+            android:textColor="@color/text"
+            android:layout_marginTop="@dimen/_4sdp"/>
+
+
+    </LinearLayout>
 
 
 

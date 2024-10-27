@@ -16,8 +16,6 @@ import com.hanuappmedia.glamifyqueen.R;
 import com.hanuappmedia.glamifyqueen.databinding.RecommendedProductBinding;
 import com.hanuappmedia.glamifyqueen.model.RecommendModel;
 import com.hanuappmedia.glamifyqueen.other.ProductDetails;
-
-import java.io.Serializable;
 import java.util.ArrayList;
 
 public class RecommendAdapter extends RecyclerView.Adapter<RecommendAdapter.RecommendViewHolder> {
