@@ -15,43 +15,55 @@ This project is packed with essential and advanced Android features that demonst
 - **Purpose**: Helps users quickly navigate through the app with a clean and organized layout.
 - **Development Insights**: You'll learn how to build a responsive and engaging UI using traditional XML layouts.
 
-  ![Dashboard Screenshot](path/to/dashboard_screenshot.png)
+
 
 ### 🔍 Search Functionality
 - **Feature Description**: A powerful search feature enabling users to find specific items or content.
 - **Purpose**: Provides quick access to the desired content using search queries.
 - **Development Insights**: This feature involves setting up **RecyclerView**, **ViewModel**, and **LiveData** to implement search results efficiently.
 
-  ![Search Screenshot](path/to/search_screenshot.png)
+
 
 ### 🛒 Cart Functionality
 - **Feature Description**: A cart functionality where users can add and review items.
 - **Purpose**: Simulates shopping cart-like behavior for tracking items selected for further action.
 - **Development Insights**: You'll explore the management of **local storage**, building **RecyclerView adapters**, and handling user interactions.
 
-  ![Cart Screenshot](path/to/cart_screenshot.png)
+
 
 ### 👤 Profile Management
 - **Feature Description**: Manage and update user profiles with personal details.
 - **Purpose**: Allows users to view and update their account information and preferences.
 - **Development Insights**: You'll learn about **data binding**, **form handling**, and user data management in a mobile context.
 
-  ![Profile Screenshot](path/to/profile_screenshot.png)
 
 ### 🔐 Account Authentication
 - **Feature Description**: Secure user authentication through email, password, Google, and GitHub login, along with a forgot password feature.
 - **Purpose**: Ensures that user accounts are secure and easily accessible.
 - **Development Insights**: Learn about integrating **Firebase Authentication** to handle user credentials and maintain session management.
 
-![Sign Up](https://github.com/user-attachments/assets/ba5a1947-5c52-4fc7-a6b6-81897685e9d9)
-![Sign In](https://github.com/user-attachments/assets/fe3c6c26-729b-47f5-95f3-482b40c37b6f)
 
 ### 🚚 Order Tracking
 - **Feature Description**: Real-time tracking for orders placed or ongoing processes within the app.
 - **Purpose**: Keeps users informed of the status of their actions.
 - **Development Insights**: Focus on **Firebase Realtime Database** to fetch and update order status data dynamically.
 
-  ![Order Tracking Screenshot](path/to/order_tracking_screenshot.png)
+---
+
+### 📸 Application Preview
+
+Here is a quick preview of the **Glamify Queen** app:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e9bed5dc-63cc-4965-96a0-7cdefbdb5e48" alt="Screenshot 1" width="150" />
+  <img src="https://github.com/user-attachments/assets/0437de0b-4eab-467b-aa6a-2023bfdef6a0" alt="Screenshot 2" width="150" />
+  <img src="https://github.com/user-attachments/assets/796e2d8e-fde1-4c46-a026-39a5c3677fb5" alt="Screenshot 3" width="150" />
+  <img src="https://github.com/user-attachments/assets/42f9e52f-a317-455b-83a7-d4b74fcf763a" alt="Screenshot 4" width="150" />
+  <img src="https://github.com/user-attachments/assets/ebac4d3f-1db3-4974-aaf2-c538bcb177d7" alt="Screenshot 5" width="150" />
+  <img src="https://github.com/user-attachments/assets/dec065f7-a1f2-46ae-a6cd-f751ede76347" alt="Screenshot 6" width="150" />
+  <img src="https://github.com/user-attachments/assets/1e326da9-a238-4a00-89fb-0c3eabe8f929" alt="Screenshot 7" width="150" />
+</p>
+
 
 ---
 
