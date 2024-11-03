@@ -55,14 +55,15 @@ This project is packed with essential and advanced Android features that demonst
 Here is a quick preview of the **Glamify Queen** app:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e9bed5dc-63cc-4965-96a0-7cdefbdb5e48" alt="Screenshot 1" width="150" />
-  <img src="https://github.com/user-attachments/assets/0437de0b-4eab-467b-aa6a-2023bfdef6a0" alt="Screenshot 2" width="150" />
-  <img src="https://github.com/user-attachments/assets/796e2d8e-fde1-4c46-a026-39a5c3677fb5" alt="Screenshot 3" width="150" />
-  <img src="https://github.com/user-attachments/assets/42f9e52f-a317-455b-83a7-d4b74fcf763a" alt="Screenshot 4" width="150" />
-  <img src="https://github.com/user-attachments/assets/ebac4d3f-1db3-4974-aaf2-c538bcb177d7" alt="Screenshot 5" width="150" />
-  <img src="https://github.com/user-attachments/assets/dec065f7-a1f2-46ae-a6cd-f751ede76347" alt="Screenshot 6" width="150" />
-  <img src="https://github.com/user-attachments/assets/1e326da9-a238-4a00-89fb-0c3eabe8f929" alt="Screenshot 7" width="150" />
+  <img src="https://github.com/user-attachments/assets/e9bed5dc-63cc-4965-96a0-7cdefbdb5e48" alt="Screenshot 1" width="180" />
+  <img src="https://github.com/user-attachments/assets/0437de0b-4eab-467b-aa6a-2023bfdef6a0" alt="Screenshot 2" width="180" />
+  <img src="https://github.com/user-attachments/assets/796e2d8e-fde1-4c46-a026-39a5c3677fb5" alt="Screenshot 3" width="180" />
+  <img src="https://github.com/user-attachments/assets/42f9e52f-a317-455b-83a7-d4b74fcf763a" alt="Screenshot 4" width="180" />
+  <img src="https://github.com/user-attachments/assets/ebac4d3f-1db3-4974-aaf2-c538bcb177d7" alt="Screenshot 5" width="180" />
+  <img src="https://github.com/user-attachments/assets/dec065f7-a1f2-46ae-a6cd-f751ede76347" alt="Screenshot 6" width="180" />
+  <img src="https://github.com/user-attachments/assets/1e326da9-a238-4a00-89fb-0c3eabe8f929" alt="Screenshot 7" width="180" />
 </p>
+
 
 
 ---
